@@ -4,6 +4,36 @@
 
 @import "nativewind/theme";
 
+@font-face {
+    font-family: 'PlusJakartaSans-Regular';
+    src: url('../assets/fonts/PlusJakartaSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans-Bold';
+    src: url('../assets/fonts/PlusJakartaSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans-Medium';
+    src: url('../assets/fonts/PlusJakartaSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans-SemiBold';
+    src: url('../assets/fonts/PlusJakartaSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans-ExtraBold';
+    src: url('../assets/fonts/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans-Light';
+    src: url('../assets/fonts/PlusJakartaSans-Light.ttf') format('truetype');
+}
+
 @theme {
     --color-background: #fff9e3;
     --color-foreground: #081126;
@@ -16,6 +46,13 @@
     --color-success: #16a34a;
     --color-destructive: #dc2626;
     --color-subscription: #8fd1bd;
+
+    --font-sans: "PlusJakartaSans-Regular";
+    --font-sans-light: "PlusJakartaSans-Light";
+    --font-sans-medium: "PlusJakartaSans-Medium";
+    --font-sans-semibold: "PlusJakartaSans-SemiBold";
+    --font-sans-bold: "PlusJakartaSans-Bold";
+    --font-sans-extrabold: "PlusJakartaSans-ExtraBold";
 
     --spacing-0: 0px;
     --spacing-1: 4px;
@@ -36,13 +73,6 @@
     --spacing-20: 80px;
     --spacing-24: 96px;
     --spacing-30: 120px;
-
-    --font-sans: sans-regular;
-    --font-sans-light: sans-light;
-    --font-sans-medium: sans-medium;
-    --font-sans-semibold: sans-semibold;
-    --font-sans-bold: sans-bold;
-    --font-sans-extrabold: sans-extrabold;
 }
 
 @layer components {
